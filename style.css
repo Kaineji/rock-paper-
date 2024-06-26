@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+#name {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.emoji {
+
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    margin: 10px;
+    background-color: violet;
+    border-radius: 100%;
+    border: none;
+
+}
+
+.emoji:hover {
+
+    background-color: red;
+    transition: ease-in 300ms;
+
+}
+
+#PlayerDisplay {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#ComputerDisplay {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#Result {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+#lose {
+
+    display: none;
+    width: 300px;
+    height: 250px;
+
+}
+
+#win {
+
+    display: none;
+    width: 300px;
+    height: 250px;
+
+}
+
+#tie {
+
+    display: none;
+    width: 300px;
+    height: 250px;
+
+}
+
+#player {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 400px;
+
+}
+
+#computer {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 400px;
+
+}
