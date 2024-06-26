@@ -14,8 +14,7 @@ let ComputerScore = 0;
 
 window.alert(`Credits:
 
-I would like to extend my heartfelt gratitude to Yma Kris Ancheta for their exceptional artwork, which has greatly enhanced the visual experience of our mini-games. Their creativity and talent have been instrumental in bringing our games to life. Thank you,Yma Kris Ancheta, for your invaluable contribution.`);
-
+I would like to extend my heartfelt gratitude to Yma Kris Ancheta for her exceptional artwork, which has greatly enhanced the visual experience of my mini-games. Her creativity and talent have been instrumental in bringing our games to life. Thank you, Yma Kris Ancheta, for your invaluable contribution.
 function PlayGame(playerChoice) {
 
     const computerChoice = choices[Math.floor(Math.random() * 3)];
